@@ -27,20 +27,24 @@ main {
 		
     grid-column: 1 / -1;
 }
-
+ 
 .div2 {
     background-color: blue;
-	grid-column: 1/4;
+	/* grid-column: 1/4; */
 }
 
 .div3 {
     background-color: brown;
-	grid-column: 1/4;
+	/* grid-column: 1/4; */
 }
 
 .div4 {
     background-color: coral;
-	grid-column: 1/4;
+	/* grid-column: 1/4; */
 }
 
- 
+  
+	.div2, .div3 , .div4{
+			flex: 1;
+		text-align:center;
+}
